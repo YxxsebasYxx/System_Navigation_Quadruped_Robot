@@ -1,0 +1,3 @@
+[console_scripts]
+__init__ = zeus.__init__:main
+turtle_teleop_joy = zeus.turtle_teleop_joy:main

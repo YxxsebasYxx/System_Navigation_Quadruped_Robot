@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (zeus) JobQueued: {'identifier': 'zeus', 'dependencies': OrderedDict()}
+[0.001023] (zeus) JobStarted: {'identifier': 'zeus'}
+[0.099552] (-) TimerEvent: {}
+[0.199971] (-) TimerEvent: {}
+[0.300716] (-) TimerEvent: {}
+[0.403038] (-) TimerEvent: {}
+[0.503476] (-) TimerEvent: {}
+[0.603917] (-) TimerEvent: {}
+[0.704349] (-) TimerEvent: {}
+[0.804751] (-) TimerEvent: {}
+[0.905143] (-) TimerEvent: {}
+[1.005539] (-) TimerEvent: {}
+[1.105945] (-) TimerEvent: {}
+[1.206347] (-) TimerEvent: {}
+[1.306908] (-) TimerEvent: {}
+[1.407292] (-) TimerEvent: {}
+[1.507683] (-) TimerEvent: {}
+[1.608103] (-) TimerEvent: {}
+[1.708545] (-) TimerEvent: {}
+[1.809009] (-) TimerEvent: {}
+[1.896938] (zeus) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/zeus', 'build', '--build-base', '/home/sebastian/ros2_workspace/build/zeus/build', 'install', '--record', '/home/sebastian/ros2_workspace/build/zeus/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sebastian/ros2_workspace/src/zeus', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/sebastian/Ardupilot_Plugin/src/ardupilot_gazebo/build:/home/sebastian/gz_ws/install/lib:/home/sebastian/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build:/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:/home/sebastian/PX4-Autopilot/build/px4_sitl_default/build_gz_bridge', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/sebastian/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/sebastian/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/sebastian/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/sebastian/SITL_Models/Gazebo/models:/home/sebastian/SITL_Models/Gazebo/worlds:/home/sebastian/Ardupilot_Plugin/src/ardupilot_gazebo/models:/home/sebastian/Ardupilot_Plugin/src/ardupilot_gazebo/worlds:/home/sebastian/PX4-Autopilot/Tools/simulation/gz_sim', 'USER': 'sebastian', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sebastian/ros-humble-ros1-bridge/install/ros1_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sebastian/ros-humble-ros1-bridge/install/ros1_bridge/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/home/sebastian/PX4-Autopilot/build/px4_sitl_default/build_gz_bridge:/home/sebastian/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-build/src/cpp/', 'HOME': '/home/sebastian', 'OLDPWD': '/home/sebastian', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '2087', 'SYSTEMD_EXEC_PID': '2253', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6623', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sebastian/ros-humble-ros1-bridge/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sebastian', 'JOURNAL_STREAM': '8:17618', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CMAKE_JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'USERNAME': 'sebastian', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-new/bin:/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/lib/ccache:/home/sebastian/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sebastian/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sebastian-HP-Laptop-15-db0xxx:@/tmp/.ICE-unix/2234,unix/sebastian-HP-Laptop-15-db0xxx:/tmp/.ICE-unix/2234', 'INVOCATION_ID': '2b9b8c98f5ce40f2ada96db504cf2936', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'GZ_IP': '127.0.0.1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1W1742', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/sebastian/ros-humble-ros1-bridge/install/ros1_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f45fce3b-6bc9-448e-bddc-fb96af67b46f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PX4_GZ_MODEL_NAME': 'x500', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'PX4_SIM_MODEL': 'x500', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'GZ_VERSION': 'garden', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/sebastian/ros2_workspace/build/zeus', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sebastian/ros2_workspace/build/zeus/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebastian/ros2_workspace/install/zeus/lib/python3.10/site-packages:/home/sebastian/ros-humble-ros1-bridge/install/ros1_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sebastian/ros-humble-ros1-bridge/install/ros1_bridge'}, 'shell': False}
+[1.909127] (-) TimerEvent: {}
+[2.009767] (-) TimerEvent: {}
+[2.110293] (-) TimerEvent: {}
+[2.210685] (-) TimerEvent: {}
+[2.311101] (-) TimerEvent: {}
+[2.411972] (-) TimerEvent: {}
+[2.485577] (zeus) StdoutLine: {'line': b'running egg_info\n'}
+[2.512102] (-) TimerEvent: {}
+[2.521197] (zeus) StdoutLine: {'line': b'creating ../../build/zeus/zeus.egg-info\n'}
+[2.522996] (zeus) StdoutLine: {'line': b'writing ../../build/zeus/zeus.egg-info/PKG-INFO\n'}
+[2.524592] (zeus) StdoutLine: {'line': b'writing dependency_links to ../../build/zeus/zeus.egg-info/dependency_links.txt\n'}
+[2.525754] (zeus) StdoutLine: {'line': b'writing entry points to ../../build/zeus/zeus.egg-info/entry_points.txt\n'}
+[2.525955] (zeus) StdoutLine: {'line': b'writing requirements to ../../build/zeus/zeus.egg-info/requires.txt\n'}
+[2.526083] (zeus) StdoutLine: {'line': b'writing top-level names to ../../build/zeus/zeus.egg-info/top_level.txt\n'}
+[2.526214] (zeus) StdoutLine: {'line': b"writing manifest file '../../build/zeus/zeus.egg-info/SOURCES.txt'\n"}
+[2.564961] (zeus) StdoutLine: {'line': b"reading manifest file '../../build/zeus/zeus.egg-info/SOURCES.txt'\n"}
+[2.565471] (zeus) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.567398] (zeus) StdoutLine: {'line': b"writing manifest file '../../build/zeus/zeus.egg-info/SOURCES.txt'\n"}
+[2.567866] (zeus) StdoutLine: {'line': b'running build\n'}
+[2.568147] (zeus) StdoutLine: {'line': b'running install\n'}
+[2.578649] (zeus) StdoutLine: {'line': b'running install_data\n'}
+[2.579139] (zeus) StdoutLine: {'line': b'creating /home/sebastian/ros2_workspace/install/zeus/share/ament_index/resource_index/packages\n'}
+[2.579654] (zeus) StdoutLine: {'line': b'copying resource/zeus -> /home/sebastian/ros2_workspace/install/zeus/share/ament_index/resource_index/packages\n'}
+[2.580216] (zeus) StdoutLine: {'line': b'copying package.xml -> /home/sebastian/ros2_workspace/install/zeus/share/zeus\n'}
+[2.580715] (zeus) StdoutLine: {'line': b'creating /home/sebastian/ros2_workspace/install/zeus/share/zeus/launch\n'}
+[2.581062] (zeus) StdoutLine: {'line': b'copying launch/turtle_teleop_control.launch.py -> /home/sebastian/ros2_workspace/install/zeus/share/zeus/launch\n'}
+[2.581435] (zeus) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.612229] (-) TimerEvent: {}
+[2.658337] (zeus) StdoutLine: {'line': b'Copying ../../build/zeus/zeus.egg-info to /home/sebastian/ros2_workspace/install/zeus/lib/python3.10/site-packages/zeus-0.0.0-py3.10.egg-info\n'}
+[2.659866] (zeus) StdoutLine: {'line': b'running install_scripts\n'}
+[2.712347] (-) TimerEvent: {}
+[2.812751] (-) TimerEvent: {}
+[2.913263] (-) TimerEvent: {}
+[2.961823] (zeus) StdoutLine: {'line': b'Installing __init__ script to /home/sebastian/ros2_workspace/install/zeus/lib/zeus\n'}
+[2.962704] (zeus) StdoutLine: {'line': b'Installing turtle_teleop_joy script to /home/sebastian/ros2_workspace/install/zeus/lib/zeus\n'}
+[2.962982] (zeus) StdoutLine: {'line': b"writing list of installed files to '/home/sebastian/ros2_workspace/build/zeus/install.log'\n"}
+[3.013422] (-) TimerEvent: {}
+[3.043883] (zeus) CommandEnded: {'returncode': 0}
+[3.092959] (zeus) JobEnded: {'identifier': 'zeus', 'rc': 0}
+[3.097086] (-) EventReactorShutdown: {}
