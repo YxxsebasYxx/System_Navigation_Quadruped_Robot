@@ -1,0 +1,17 @@
+# ROS 2 colcon build directories
+build/
+install/
+log/
+
+# Ignorar subcarpetas de log que comienzan con build_2025-
+log/build_2025-*/
+
+# Ignorar caché de Python
+**/__pycache__/
+*.py[cod]
+
+
+# Ignorar archivos temporales de editores
+.vscode/
+*.swp
+*~

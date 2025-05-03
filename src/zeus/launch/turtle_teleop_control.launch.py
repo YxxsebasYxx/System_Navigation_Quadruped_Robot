@@ -6,11 +6,11 @@ def generate_launch_description():
     return LaunchDescription([
 
         # Nodo de Turtlesim
-        Node(
-            package='turtlesim',
-            executable='turtlesim_node',
-            name='sim'
-        ),
+        #Node(
+        #    package='turtlesim',
+        #    executable='turtlesim_node',
+        #    name='sim'
+        #),
 
         # Nodo de joy (joystick)
         Node(
@@ -26,8 +26,8 @@ def generate_launch_description():
 
         # Nodo para teleoperar con joystick
         Node(
-            package='scarab',
-            executable='turtle_teleop_joy.py',
+            package='zeus',
+            executable='turtle_teleop_joy',
             name='teleop',
             parameters=[{
                 'axis_linear': 1,

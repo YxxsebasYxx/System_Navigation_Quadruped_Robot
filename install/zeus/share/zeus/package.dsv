@@ -4,3 +4,6 @@ source;share/zeus/hook/pythonpath.sh
 source;share/zeus/hook/ament_prefix_path.ps1
 source;share/zeus/hook/ament_prefix_path.dsv
 source;share/zeus/hook/ament_prefix_path.sh
+source;../../build/zeus/share/zeus/hook/pythonpath_develop.ps1
+source;../../build/zeus/share/zeus/hook/pythonpath_develop.dsv
+source;../../build/zeus/share/zeus/hook/pythonpath_develop.sh

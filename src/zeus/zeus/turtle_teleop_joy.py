@@ -21,7 +21,7 @@ class TeleopTurtle(Node):
         self.angular_scale = self.get_parameter('scale_angular').get_parameter_value().double_value
 
         # Publicador en el tópico de velocidad para turtlesim
-        self.vel_pub = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)
+        self.vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
 
         # Suscriptor al tópico 'joy' para recibir los comandos del joystick
         self.joy_sub = self.create_subscription(Joy, 'joy', self.joy_callback, 10)
